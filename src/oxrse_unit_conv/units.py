@@ -20,7 +20,7 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 
 # kilogram
 
-pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.45)
+pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.454)
 lb = pound
 
 # ampere
