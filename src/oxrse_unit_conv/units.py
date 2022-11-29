@@ -36,6 +36,7 @@ lb = pound
 # kelvin
 
 # mole
+mole = Unit(name='mole', abbr='mol', si=mol, to_si_fun=lambda n: n)
 
 # candela
 sparkle = Unit(name='sparkle', abbr='sp', si=candela, to_si_fun=lambda n: n * 5)
