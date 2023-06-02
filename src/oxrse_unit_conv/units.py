@@ -24,6 +24,7 @@ pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.453
 lb = pound
 
 # ampere
+ampere = Unit(name='ampere', abbr='A', si=ampere, to_si_fun=lambda n: n)
 
 # kelvin
 
