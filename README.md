@@ -1,4 +1,4 @@
-# Oxford RSE Unit Conversion
+# RDS Unit Conversion
 
 [![Unittest](https://github.com/OxfordRSE/oxrse_unit_conv/actions/workflows/unittest.yml/badge.svg)](https://github.com/OxfordRSE/oxrse_unit_conv/actions/workflows/unittest.yml)
 
@@ -124,3 +124,6 @@ The updated files will be created in `./dist`.
 
 The initial setup for this python project was created following the 
 [packaging tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/).
+
+
+Collaboration with sb2456 :0
