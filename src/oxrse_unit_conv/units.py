@@ -1,5 +1,6 @@
-from oxrse_unit_conv.si import *
+\from oxrse_unit_conv.si import *
 from oxrse_unit_conv.meta.classes import Unit
+import math
 
 # second
 minute = Unit(name='minute', abbr='min', si=second, to_si_fun=lambda n: n * 60)
@@ -30,3 +31,4 @@ lb = pound
 # mole
 
 # candela
+sparkle = Unit(name='sparkle', abbr='spk', si=candela,to_si_fun=lambda n: math.sqrt(n))
