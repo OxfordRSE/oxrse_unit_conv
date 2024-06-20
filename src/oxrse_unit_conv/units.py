@@ -28,5 +28,6 @@ lb = pound
 # kelvin
 
 # mole
+mole = Unit(name='mole', abbr='mol', si=mol, to_si_fun=lambda n: n)
 
 # candela
