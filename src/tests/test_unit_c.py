@@ -7,7 +7,7 @@ class TestKilometer(unittest.TestCase):
         self.assertTrue(C.si_unit.matches(K))
 
     def test_basic_conversion(self):
-        self.assertEqual(C.to_si(1), 273)
+        self.assertEqual(C.to_si(1), 273.15)
         self.assertEqual(C.to_unit(10, C), 10)
 
 
