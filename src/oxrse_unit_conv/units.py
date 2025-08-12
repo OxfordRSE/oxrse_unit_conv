@@ -27,6 +27,10 @@ lb = pound
 
 # kelvin
 
+# Reaumur
+Reaumur = Unit(name='Reaumur', abbr = 'Re', si=kelvin, to_si_fun=lambda n: (n * 5/4) + 273.15)
+Re = Reaumur
+
 # mole
 
 # candela
