@@ -30,3 +30,7 @@ lb = pound
 # mole
 
 # candela
+
+# stones
+stones = Unit(name='stones', abbr='st', si=kilogram, to_si_fun=lambda n: n*6.35)
+st = stones
