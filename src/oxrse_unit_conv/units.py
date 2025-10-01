@@ -16,6 +16,12 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 
 # meter_sq
 
+centremeters_sq = Unit(name='centremeters_sq', abbr='cm2', si=meter_sq, to_si_fun=lambda n: n / 10000)
+cm2 = centremeters_sq
+
+feet_sq = Unit(name='feet_sq', abbr='ft2', si=meter_sq, to_si_fun=lambda n: n / 10.764)
+ft2 = feet_sq
+
 # meter_cu
 
 # kilogram
