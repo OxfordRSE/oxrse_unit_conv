@@ -1,6 +1,6 @@
 # Click interface to allow running from command line
-from oxrse_unit_conv import units
-from oxrse_unit_conv.meta import classes
+import units
+from meta import classes
 import click
 import logging
 
