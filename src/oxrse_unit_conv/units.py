@@ -30,3 +30,6 @@ lb = pound
 # mole
 
 # candela
+sparkle = Unit(name='sparkle', abbr='sp', si=candela, to_si_fun=lambda n: n*5)
+sp = sparkle
+
