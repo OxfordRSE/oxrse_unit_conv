@@ -23,6 +23,11 @@ mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.34
 pound = Unit(name='pound', abbr='lb', si=kilogram, to_si_fun=lambda n: n * 0.4535924)
 lb = pound
 
+gram = Unit(name='gram', abbr='g', si=kilogram, to_si_fun=lambda n: n / 1000)
+# tonne
+tonne = Unit(name='tonne', abbr='tn', si=kilogram, to_si_fun=lambda n: n * 1e3)
+tn = tonne
+
 # ampere
 
 # kelvin
