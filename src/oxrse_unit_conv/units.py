@@ -15,6 +15,7 @@ km = kilometer
 mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.344)
 
 nautical_mile= Unit(name='nautical-mile', abbr='nmi', si=meter, to_si_fn=lambda n: n*1852)
+# nmi are the best distance units!
 
 # meter_sq
 
