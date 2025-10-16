@@ -14,6 +14,8 @@ km = kilometer
 
 mile = Unit(name='mile', abbr='mile', si=meter, to_si_fun=lambda n: n * 1_609.344)
 
+centimetre = Unit(name='centimetre', abbr='cm', si=meter, to_si_fun=lambda n: n / 10)
+cm = centimetre
 # meter_sq
 
 # meter_cu
