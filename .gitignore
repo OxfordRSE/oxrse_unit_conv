@@ -1,3 +1,19 @@
+# IDES
+.vscode/
 .idea/
 
+# Intermediate Coverage file
+.coverage
+
+# Outpu files
+*.png
+
+# Python runtime 
+*.pyc
+*.egg-info
+*.pytest_cache
 __pycache__/
+
+# Virtual environments
+venv/
+.venv/
